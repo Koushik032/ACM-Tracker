@@ -1,67 +1,66 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5; /* Light Gray background */
-  }
-  
-  .container {
-    width: 400px;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 5px;
-    background-color: #fff; /* White container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333; /* Dark Gray heading */
-  }
-  
-  .form-wrapper {
-    display: flex;
-    justify-content: center; /* Center the login form */
-  }
-  
-  .login-form {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  h2 {
-    text-align: center;
-    margin-bottom: 10px;
-    color: #333; /* Dark Gray subheading */
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333; /* Dark Gray label text */
-  }
-  
-  input[type="email"], input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc; /* Light Gray border */
-    border-radius: 3px;
-    margin-bottom: 15px;
-  }
-  
-  button {
-    display: block;
-    width: 100%;
-    padding: 10px 20px;
-    background-color: #2ECC71; /* Green button */
-    color: #fff; /* White button text */
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #27AE60; /* Darker green on hover */
-  }
-  
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light Gray background */
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff; /* White container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Dark Gray heading */
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center; /* Center the login form */
+}
+
+.login-form {
+  flex: 1;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333; /* Dark Gray subheading */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Dark Gray label text */
+}
+
+input[type="email"], input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light Gray border */
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #2ECC71; /* Green button */
+  color: #fff; /* White button text */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #27AE60; /* Darker green on hover */
+}
